@@ -1,0 +1,16 @@
+.DS_Store
+.mplconfig/
+.pycache/
+__pycache__/
+*.pyc
+
+# Local outputs / downloaded datasets
+figure/
+PRJNA655427/
+
+# Large binary formats (keep out of git by default)
+*.hic
+*.mcool
+
+# Papers / PDFs
+*.pdf
