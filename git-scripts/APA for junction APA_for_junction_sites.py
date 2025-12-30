@@ -17,7 +17,7 @@ from Coronavirus_hic_data import ma_sars_ric_virion_kr, oe_sars_ric_virion_kr, d
 import scipy.stats as ss
 oe_com, dis_com = get_oe(ma_sars_com_cell)
 
-pp = PdfPages('./Figure_2-SARS2-APA.pdf')
+pp = PdfPages('Figure_2-SARS2-APA.pdf')
 res = 5
 ###距离衰减曲线
 #sns.set_theme(style="darkgrid")
