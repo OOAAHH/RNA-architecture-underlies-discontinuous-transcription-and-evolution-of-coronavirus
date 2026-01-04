@@ -9,9 +9,13 @@ Discontinuous transcription is employed by coronaviruses to generate subgenomic 
 
 Data can be  available on CODE (https://webofgroup.cn/dgwei/hngene).
 
+## 我的新增
 ## Generate required `.bed` files
 
 Some scripts in `git-scripts/` (for example `git-scripts/read_genome_sites.py`) expect genome annotation BED6 files under `data/genome/` (e.g. `NC_045512.2.bed`).
 
 - Generate local BEDs (uses coordinate dictionaries already included in this repo): `python3 git-scripts/make_genome_beds.py`
 - Generate the remaining BEDs by downloading GenBank records from NCBI (requires network access): `python3 git-scripts/make_genome_beds.py --ncbi`
+
+## 新增了必要的用于复现的文件
+我的目的是绘制SARS covid2长距离相互作用，图片已经复现，存在figure文件夹，必要的文件都存入仓库。
